@@ -41,6 +41,13 @@
   <severity>0</severity>
  </rule>
 
+ <rule ref="CakePHP.Commenting.FunctionComment.MissingParamComment">
+  <severity>0</severity>
+ </rule>
+  <rule ref="CakePHP.Commenting.DocBlockAlignment.NotAllowed">
+  <severity>0</severity>
+ </rule>
+
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
   <properties>
    <property name="ignoreBlankLines" value="false"/>
