@@ -45,12 +45,17 @@
   <severity>0</severity>
  </rule>
 
+ <!-- Begin InfoSec modifications -->
  <rule ref="CakePHP.Commenting.FunctionComment.MissingParamComment">
   <severity>0</severity>
  </rule>
   <rule ref="CakePHP.Commenting.DocBlockAlignment.NotAllowed">
   <severity>0</severity>
  </rule>
+ <rule ref="CakePHP.Commenting.FunctionComment.Missing">
+  <severity>0</severity>
+ </rule>
+<!-- End InfoSec modifications -->
 
  <rule ref="Squiz.WhiteSpace.SuperfluousWhitespace">
   <properties>
