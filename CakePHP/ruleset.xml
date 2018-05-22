@@ -157,6 +157,9 @@
   <exclude-pattern>*/src/*</exclude-pattern>
   <exclude-pattern>*/tests/*</exclude-pattern>
  </rule>
+ <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
+  <exclude-pattern>*/config/Migrations/*</exclude-pattern>
+ </rule>
 
  <!-- All rules in ./Sniffs are included automatically -->
 </ruleset>
