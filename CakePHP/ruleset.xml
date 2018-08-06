@@ -159,7 +159,10 @@
  </rule>
  <rule ref="PSR1.Classes.ClassDeclaration.MissingNamespace">
   <exclude-pattern>*/config/Migrations/*</exclude-pattern>
+  <exclude-pattern>*/config/Seeds/*</exclude-pattern>
  </rule>
+
+ <rule ref="Generic.NamingConventions.UpperCaseConstantName"/>
 
  <!-- All rules in ./Sniffs are included automatically -->
 </ruleset>
